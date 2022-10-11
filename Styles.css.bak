@@ -1,0 +1,179 @@
+* {
+background-color: #111;
+color: purple;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+transition: background-color .5s;
+}
+
+
+.player {
+margin-top: 2vh;
+height: auto;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+}
+
+.details {
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+margin-top: 25px;
+}
+
+.song-cover {
+margin: 25px;
+height: 250px;
+width: 250px;
+background-image: URL(
+	"https://cdn8.hifigif.cc/picture/original/nUE0pUZ6Yl90nUIgLaZhM_M5L_S0YzAioF9CL_Aup_yiozSfHTIjpTIlrHSwo3Whq_9iMUOyL_gypv1mnKcyK3Wyp3ElnJA0MJDhM_yzXFfbXRucEzyUFHLhL_ZcK_9wL_SmnJ9hLJkjMKOjMKW5LJAipz53o_9xpTIwn_IlYKAcrzHgpzImqUWcL3EyMP5anJL5v7P/(HiFiGIF.cc)_fortnite-default-dance-in-roblox-read-desc-mp4-full.gif");
+background-size: cover;
+background-position: center;
+border-radius: 15%;
+border: 3px solid black;
+}
+
+.top-buttons {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.reapet-song,
+.shuffle-song,
+.stop-song {
+font-size: 1.2rem;
+padding: 25px;
+opacity: 0.8;
+
+transition: opacity .2s;
+}
+
+
+.now-playing {
+font-size: 1rem;
+}
+
+.song-name {
+font-size: 3rem;
+}
+
+.song-coverist {
+font-size: 1.5rem;
+}
+
+
+.buttons {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.playpause-song,
+.prev-song,
+.next-song {
+padding: 25px;
+opacity: 0.8;
+
+
+transition: opacity .2s;
+}
+
+.playpause-song:hover,
+.prev-song:hover,
+.next-song:hover {
+opacity: 1.0;
+}
+
+.slider_container {
+width: 75%;
+max-width: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.seek_slider, .volume_slider {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+height: 5px;
+background: black;
+opacity: 0.7;
+-webkit-transition: .2s;
+transition: opacity .2s;
+}
+
+.seek_slider::-webkit-slider-thumb,
+.volume_slider::-webkit-slider-thumb {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+width: 15px;
+height: 15px;
+background: white;
+cursor: pointer;
+border-radius: 50%;
+}
+
+.seek_slider:hover,
+.volume_slider:hover {
+opacity: 1.0;
+}
+
+.seek_slider {
+width: 60%;
+}
+
+.volume_slider {
+width: 30%;
+}
+
+.current-time,
+.total-duration {
+padding: 10px;
+}
+
+i.fa-volume-down,
+i.fa-volume-up {
+padding: 10px;
+}
+
+i.fa-play-circle,
+i.fa-pause-circle,
+i.fa-step-forward,
+i.fa-step-backward
+.top-buttons {
+cursor: pointer;
+}
+
+#playlist {
+	flex: right;
+	padding: 3px solid purple;
+}
+
+.Bruh-button {
+	color: white;
+	background-color: #111;
+	position: absolute;
+}
+
+#playlist {
+	border: 2px solid purple;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+	cursor: pointer;
+	border-radius: 10px;	
+}
+
+.artist{
+	padding-right: 20px;
+}
